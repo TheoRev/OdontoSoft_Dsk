@@ -1,0 +1,23 @@
+{
+  "name": "odontosoft_dsk",
+  "version": "1.0.0",
+  "description": "Sistema frontend de proyecto de tesis OdontoSoft",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoRev/OdontoSoft_Dsk.git"
+  },
+  "author": "Hector Rolando Revilla Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheoRev/OdontoSoft_Dsk/issues"
+  },
+  "homepage": "https://github.com/TheoRev/OdontoSoft_Dsk#readme",
+  "dependencies": {
+    "electron": "^1.7.6"
+  }
+}
