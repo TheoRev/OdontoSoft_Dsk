@@ -4,7 +4,7 @@
   "description": "Sistema frontend de proyecto de tesis OdontoSoft",
   "main": "index.js",
   "scripts": {
-    "dev": "electron",
+    "dev": "electron index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,14 @@
   },
   "homepage": "https://github.com/TheoRev/OdontoSoft_Dsk#readme",
   "dependencies": {
-    "electron": "^1.7.6"
+    "cross-env": "^5.0.5",
+    "electron": "^1.7.6",
+    "electron-compile": "^6.4.1",
+    "electron-debug": "^1.4.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-prebuilt-compile": "^1.7.5",
+    "standard": "^10.0.3"
   }
 }
